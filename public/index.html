@@ -1,17 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+
+<head>
+    <title>TRTC实时音视频通话</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.7, user-scalable=no, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/room.css">
+</head>
+
+<body>
+	<div class="" id="app"></div>
+  <script src="./js/jquery-3.2.1.min.js"></script>
+  <script src="./js/popper.js"></script>
+  <script src="./js/bootstrap-material-design.js"></script>
+  <script>
+      $(document).ready(function () {
+          $('body').bootstrapMaterialDesign();
+      });
+  </script>
+  <script src="./js/lib-generate-test-usersig.min.js"></script>
+  <script src="./js/debug/GenerateTestUserSig.js"></script>
+  <script src="./js/iconfont.js"></script>
+  <script src="./js/trtc.js"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/rtc-client.js"></script>
+  <script src="./js/share-client.js"></script>
+  <script src="./js/presetting.js"></script>
+  <script src="./js/device-testing.js"></script>
+  <script src="./js/index.js"></script>
+    
+</body>
+
 </html>

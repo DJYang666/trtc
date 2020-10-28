@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "less": "^3.0.4",
+    "less-loader": "^7.0.1",
+    "trtc-js-sdk": "^4.6.3",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -18,7 +21,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue-router": "^3.0.1"
   },
   "eslintConfig": {
     "root": true,
